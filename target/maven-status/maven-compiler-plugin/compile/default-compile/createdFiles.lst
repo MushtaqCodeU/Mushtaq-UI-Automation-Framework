@@ -1,0 +1,7 @@
+pages\ApplyLeavePage.class
+constant\ForgotPasswordMessages.class
+pages\DashBoardPage.class
+pages\HomePage.class
+constant\LoginMessages.class
+pages\ForgotPasswordPage.class
+pages\SuccessForgotPasswordPage.class

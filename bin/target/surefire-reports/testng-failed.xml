@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="forgotpassword.ForgotPasswordTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCancelForgotPassword"/>
+          <include name="testForgotPasswordWithWrongUsername"/>
+          <include name="testForgotPasswordWithCorrectUsername"/>
+          <include name="testForgotPasswordWithCorrectUsernameMultipleTry"/>
+          <include name="tearDown"/>
+          <include name="testForgotPasswordWithEmptyUsername"/>
+        </methods>
+      </class> <!-- forgotpassword.ForgotPasswordTests -->
+      <class name="load.LoadPageTest">
+        <methods>
+          <include name="testLoadHomepage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- load.LoadPageTest -->
+      <class name="login.LoginTests">
+        <methods>
+          <include name="testLoginWithoutInsertUsernameAndPassword"/>
+          <include name="setUp"/>
+          <include name="testLoginInsertCorrectUsernameAndPassword"/>
+          <include name="tearDown"/>
+          <include name="testLoginInsertCorrectUsernameAndWrongPassword"/>
+          <include name="testLoginInsertWrongUsernameAndWrongPassword"/>
+          <include name="testLoginInsertPasswordOnly"/>
+          <include name="testLoginInsertUsernameOnly"/>
+        </methods>
+      </class> <!-- login.LoginTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

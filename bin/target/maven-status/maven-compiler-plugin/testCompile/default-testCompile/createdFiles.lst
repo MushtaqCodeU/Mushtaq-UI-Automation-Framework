@@ -1,0 +1,4 @@
+base\BaseTest.class
+load\LoadPageTest.class
+forgotpassword\ForgotPasswordTests.class
+login\LoginTests.class

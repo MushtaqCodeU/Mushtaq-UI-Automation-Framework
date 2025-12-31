@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/"/>
+  <test name="HRM Automation Tests(failed)">
+    <classes>
+      <class name="login.LoginTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLoginInsertCorrectUsernameAndPassword" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- login.LoginTests -->
+    </classes>
+  </test> <!-- HRM Automation Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
